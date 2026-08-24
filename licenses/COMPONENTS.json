@@ -1,0 +1,806 @@
+{
+  "schema": "audion.build_licenses.components.v1",
+  "generated_utc": "2026-08-24T17:47:26Z",
+  "project_id": "audion-tc",
+  "project_name": "Audion TC",
+  "scan_root": "S:\\Release\\Audion TC Portable\\Audion TC",
+  "components": [
+    {
+      "id": "audion-tc-own-binaries",
+      "name": "Audion TC own binaries",
+      "normalized_name": "audion-tc-own-binaries",
+      "version": "bundled",
+      "license_summary": "Audion own code; Windows icon resources extracted from the installed system",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "2164b25849bdc7558d08339656fee5789552512226a9dc1edce31147f57c229a",
+      "artifact_path": "AudionTC.exe; Wcmicon2.dll",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "",
+        "version": "bundled",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "a73809e1ac6a8712ede097eff90f0806480d792e0072c4b2a316e9664e48a80c",
+          "display_name": "NOTICE-Audion-TC-Own-Binaries.md",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\audion-tc-own-binaries-bundled\\NOTICE-Audion-TC-Own-Binaries.md",
+          "raw_size": 3218
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Audion TC own binaries",
+          "version": "bundled",
+          "license": "Audion own code; Windows icon resources extracted from the installed system",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "AudionTC.exe",
+            "Wcmicon2.dll",
+            "Payload/AudionTC.exe",
+            "Payload/Wcmicon2.dll"
+          ],
+          "files": [
+            "files/NOTICE-Audion-TC-Own-Binaries.md"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "",
+            "version": "bundled",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "826ccdc9532f1122a5225ee7e8dbb42dfadfc68c0e311a9cc190ae9309970fdf"
+    },
+    {
+      "id": "bottom-btm-system-monitor",
+      "name": "bottom (btm) - system monitor",
+      "normalized_name": "bottom-btm-system-monitor",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "85bdc5ee39606653c0d5f80077f9b3cfd417b53e175443c49bacb988ae51ddc2",
+      "artifact_path": "Apps/bottom/bottom.toml; Apps/bottom/btm.exe; Apps/bottom/completion/_btm; Apps/bottom/completion/_btm.ps1; Apps/bottom/completion/btm.bash; Apps/bottom/completion/btm.elv; Apps/bottom/completion/btm.fish; Apps/bottom/completion/btm.nu",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "89855774cfcb4b828306549bdb9d3424c15bebf01d60a59e6c98ff0e2896da9e",
+          "display_name": "LICENSE-bottom-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\bottom-btm-system-monitor-bundled\\LICENSE-bottom-MIT.txt",
+          "raw_size": 1070
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "bottom (btm) - system monitor",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/bottom",
+            "Payload/Apps/bottom"
+          ],
+          "files": [
+            "files/LICENSE-bottom-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "07cb07d67e79b58a6f63b3a4b9b31cd1db21fcf228f81fb435c9c87bff677177"
+    },
+    {
+      "id": "cudatext-editor",
+      "name": "CudaText editor",
+      "normalized_name": "cudatext-editor",
+      "version": "bundled",
+      "license_summary": "MPL-2.0",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "549aeebdfc20c49d8c2cb9baa57e0045850ce30d1e35d6767dde0b6ecc77517a",
+      "artifact_path": "Apps/CudaText/cudatext.exe; Apps/CudaText/data/autocomplete/Bash script.acp; Apps/CudaText/data/autocomplete/Batch files.acp; Apps/CudaText/data/autocompletespec/css_colors.ini; Apps/CudaText/data/autocompletespec/css_list.ini; Apps/CudaText/data/autocompletespec/css_sel.ini; Apps/CudaText/data/autocompletespec/emmet_lorem.txt; Apps/CudaText/data/autocompletespec/emmet_snippets.ini",
+      "obligation_class": "file-copyleft",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://pypi.org/project/cudatext-editor/bundled/",
+        "version": "bundled"
+      },
+      "legal_documents": [
+        {
+          "sha256": "81cc638e62e8cc3acc37e550e8f5b698515d64d479fc77f5712a788fce9f34f8",
+          "display_name": "LICENSE-CudaText-MPL-2.0.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\cudatext-editor-bundled\\LICENSE-CudaText-MPL-2.0.txt",
+          "raw_size": 171
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "CudaText editor",
+          "version": "bundled",
+          "license": "MPL-2.0",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/CudaText",
+            "Payload/Apps/CudaText"
+          ],
+          "files": [
+            "files/LICENSE-CudaText-MPL-2.0.txt"
+          ],
+          "obligation_class": "file-copyleft",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "bfdf6069b133c4006727f00627823e8cd4674f2bb7efde9d75d6f0698a41169c"
+    },
+    {
+      "id": "fastfetch",
+      "name": "fastfetch",
+      "normalized_name": "fastfetch",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "598259f56a466d2eb9555cc9b2cf7fe74feb56f372811cf1fec59eccf078f5fd",
+      "artifact_path": "Apps/fastfetch/LICENSE; Apps/fastfetch/fastfetch.exe; Apps/fastfetch/fastfetch.jsonc; Apps/fastfetch/flashfetch.exe; Apps/fastfetch/libqjs-0.dll; Apps/fastfetch/lua55.dll; Apps/fastfetch/presets/all.jsonc; Apps/fastfetch/presets/archey.jsonc",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "f30fab2451411172d78522346e91eae63ef1ea11c3487bc9acd0a68acd8c9571",
+          "display_name": "LICENSE-fastfetch-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\fastfetch-bundled\\LICENSE-fastfetch-MIT.txt",
+          "raw_size": 1134
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "fastfetch",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/fastfetch",
+            "Payload/Apps/fastfetch"
+          ],
+          "files": [
+            "files/LICENSE-fastfetch-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "9c7c51790db0c7a488c9d2e7b249cdb479d98f2cb1b1060bbadea2f77fd83c8a"
+    },
+    {
+      "id": "fzf",
+      "name": "fzf",
+      "normalized_name": "fzf",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "baseline-tool",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "a8802e36895dbef8d11f35fceadbeebe89c1b0d2c43810076f19a7b963461023",
+      "artifact_path": "Scripts/bin/fzf.exe",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "a296f423c0d30ce3581435e78e7e36c5fe73984a882d8720c72e713b4593588b",
+          "display_name": "LICENSE-fzf.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\fzf-bundled\\LICENSE-fzf.txt",
+          "raw_size": 1106
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "fzf",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "baseline-tool",
+          "whenPathExists": [
+            "system_core/fzf.exe",
+            "Payload/Scripts/bin/fzf.exe",
+            "Scripts/bin/fzf.exe"
+          ],
+          "files": [
+            "files/LICENSE-fzf.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "bf922c015772507627d2c31ca50843b51513316f59809753d8e79dc33501bc74"
+    },
+    {
+      "id": "lite-xl-editor",
+      "name": "Lite XL editor",
+      "normalized_name": "lite-xl-editor",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "f6b5e08de60246715076d6e183783d736c9e6d4a4482c0fc0851eeb335a371c0",
+      "artifact_path": "Apps/lite-xl/data/colors/default.lua; Apps/lite-xl/data/colors/fall.lua; Apps/lite-xl/data/colors/summer.lua; Apps/lite-xl/data/colors/textadept.lua; Apps/lite-xl/data/core/bit.lua; Apps/lite-xl/data/core/command.lua; Apps/lite-xl/data/core/commands/command.lua; Apps/lite-xl/data/core/commands/core.lua",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "574e1c848b5853918790e40a71d8ad0c2dc0164474e9d49e1143a1cc3502cf71",
+          "display_name": "LICENSE-lite-xl-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\lite-xl-editor-bundled\\LICENSE-lite-xl-MIT.txt",
+          "raw_size": 5950
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Lite XL editor",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/lite-xl",
+            "Payload/Apps/lite-xl"
+          ],
+          "files": [
+            "files/LICENSE-lite-xl-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "4fdc9086d8f2fb844c0221418aa8f7079d0942b3640ecdfbdcd1d63d8b433331"
+    },
+    {
+      "id": "notepad3-editor",
+      "name": "Notepad3 editor",
+      "normalized_name": "notepad3-editor",
+      "version": "bundled",
+      "license_summary": "BSD-3-Clause",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "3a561746134a2e783b4a12946e244d21a4aec8114a0f6a440800736bc6c3f423",
+      "artifact_path": "Apps/Notepad3/Docs/Changes.txt; Apps/Notepad3/Docs/KeyboardShortcuts.txt; Apps/Notepad3/Docs/License.txt; Apps/Notepad3/Docs/Notepad2.txt; Apps/Notepad3/Docs/Notepad3.txt; Apps/Notepad3/Docs/Readme-Notepad2.txt; Apps/Notepad3/Docs/Readme-mod.txt; Apps/Notepad3/Docs/Readme.txt",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "a10e34665dab03e6c299909270be8a651e1d5d92141a5646792e9b1893cefe2f",
+          "display_name": "LICENSE-Notepad3-BSD-3-Clause.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\notepad3-editor-bundled\\LICENSE-Notepad3-BSD-3-Clause.txt",
+          "raw_size": 3407
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Notepad3 editor",
+          "version": "bundled",
+          "license": "BSD-3-Clause",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/Notepad3",
+            "Payload/Apps/Notepad3"
+          ],
+          "files": [
+            "files/LICENSE-Notepad3-BSD-3-Clause.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "8c93a59c263ec71f0688532b83ccde2e1c6536ac10676cbe974713b70ad024db"
+    },
+    {
+      "id": "textadept-editor",
+      "name": "Textadept editor",
+      "normalized_name": "textadept-editor",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "753fc9549da2b43d5542e8d1c532e9d4f3cf9c0834dd6bce20d2de683db2e841",
+      "artifact_path": "Apps/textadept/LICENSE; Apps/textadept/Qt6Core.dll; Apps/textadept/Qt6Core5Compat.dll; Apps/textadept/Qt6Gui.dll; Apps/textadept/Qt6Network.dll; Apps/textadept/Qt6Svg.dll; Apps/textadept/Qt6Widgets.dll; Apps/textadept/concrt140.dll",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "ff4518eeef13620eaa2051f3d964d680a8af5866d8b40283de89280948024495",
+          "display_name": "LICENSE-textadept-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\textadept-editor-bundled\\LICENSE-textadept-MIT.txt",
+          "raw_size": 1095
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Textadept editor",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/textadept",
+            "Payload/Apps/textadept"
+          ],
+          "files": [
+            "files/LICENSE-textadept-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "5fab94d29b3f6d7c44f36369b7298134909878b0d1bcefee3d7b23a00492cb09"
+    },
+    {
+      "id": "total-commander-plugin-dirsizecalc",
+      "name": "Total Commander plugin: DirSizeCalc",
+      "normalized_name": "total-commander-plugin-dirsizecalc",
+      "version": "2.22",
+      "license_summary": "copyrighted freeware",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "d788b29e5b2dab98b65a7d272472e46eeb786bf7d24dae6cfe235117d3324864",
+      "artifact_path": "plugins/WDX64/DirSizeCalc/DirSizeCalc.wdx; plugins/WDX64/DirSizeCalc/DirSizeCalcSettings.exe; plugins/WDX64/DirSizeCalc/DirSizeCalcSettings64.exe; plugins/WLX64/DirSizeCalc Charts/DirSizeCalcCharts.wlx; plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings.exe; plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings64.exe",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://totalcmd.net/plugring/dirsizecalc.html",
+        "version": "2.22",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "30ad49937b0754d61fe060986273b845a663491d947b08eee81f4aed4c562528",
+          "display_name": "NOTICE-Total-Commander-Plugins-Review.md",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-dirsizecalc-2.22\\NOTICE-Total-Commander-Plugins-Review.md",
+          "raw_size": 4475
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: DirSizeCalc",
+          "version": "2.22",
+          "license": "copyrighted freeware",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WDX64/DirSizeCalc/DirSizeCalc.wdx",
+            "plugins/WDX64/DirSizeCalc/DirSizeCalcSettings.exe",
+            "plugins/WDX64/DirSizeCalc/DirSizeCalcSettings64.exe",
+            "plugins/WLX64/DirSizeCalc Charts/DirSizeCalcCharts.wlx",
+            "plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings.exe",
+            "plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings64.exe",
+            "Payload/plugins/WDX64/DirSizeCalc/DirSizeCalc.wdx",
+            "Payload/plugins/WDX64/DirSizeCalc/DirSizeCalcSettings.exe",
+            "Payload/plugins/WDX64/DirSizeCalc/DirSizeCalcSettings64.exe",
+            "Payload/plugins/WLX64/DirSizeCalc Charts/DirSizeCalcCharts.wlx",
+            "Payload/plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings.exe",
+            "Payload/plugins/WLX64/DirSizeCalc Charts/DirSizeCalcSettings64.exe"
+          ],
+          "files": [
+            "files/NOTICE-Total-Commander-Plugins-Review.md"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://totalcmd.net/plugring/dirsizecalc.html",
+            "version": "2.22",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "2ea921b34cb74fd739eff95cdce032797f5424d913a194843b69e21e96a433be"
+    },
+    {
+      "id": "total-commander-plugin-exif",
+      "name": "Total Commander plugin: Exif",
+      "normalized_name": "total-commander-plugin-exif",
+      "version": "2.8",
+      "license_summary": "MIT",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "5cc601d9682c29d8db9cf069645611f1f80a3f5799d40ea7bd12461bd8cda839",
+      "artifact_path": "plugins/WDX64/Exif/exif.wdx",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://plugins.ghisler.com/content/wdx_exif.zip",
+        "version": "2.8",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "7a26177ecda4f12f7644d63fc287e9a6a571f105141b3f970567c2b9aed65ef4",
+          "display_name": "LICENSE-TC-Exif-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-exif-2.8\\LICENSE-TC-Exif-MIT.txt",
+          "raw_size": 1169
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: Exif",
+          "version": "2.8",
+          "license": "MIT",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WDX64/Exif/exif.wdx",
+            "Payload/plugins/WDX64/Exif/exif.wdx"
+          ],
+          "files": [
+            "files/LICENSE-TC-Exif-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://plugins.ghisler.com/content/wdx_exif.zip",
+            "version": "2.8",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "cf491beb91c975ddc8bd22a78c7c6b346c368d2d60007cd33aea913361317b05"
+    },
+    {
+      "id": "total-commander-plugin-mediainfo",
+      "name": "Total Commander plugin: MediaInfo",
+      "normalized_name": "total-commander-plugin-mediainfo",
+      "version": "26.05",
+      "license_summary": "BSD-2-Clause",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "4235fb6dbb2957edf317a0ea7e799fbcd2feead867e2d1c4842ee322eea2d0ee",
+      "artifact_path": "plugins/WDX64/MediaInfo/MediaInfo.dll; plugins/WDX64/MediaInfo/MediaInfo64.dll; plugins/WDX64/MediaInfo/mediainfo.wdx; plugins/WDX64/MediaInfo/src/src.rar",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://totalcmd.net/plugring/mediainfo64.html",
+        "version": "26.05",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "1f185e24d9b2a2a1b54afcb85235d7e1e10ea86b2f51e93de834b10a9eb630fb",
+          "display_name": "LICENSE-MediaInfoLib-BSD-2-Clause.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-mediainfo-26.05\\LICENSE-MediaInfoLib-BSD-2-Clause.txt",
+          "raw_size": 2798
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: MediaInfo",
+          "version": "26.05",
+          "license": "BSD-2-Clause",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WDX64/MediaInfo/mediainfo.wdx",
+            "plugins/WDX64/MediaInfo/MediaInfo.dll",
+            "plugins/WDX64/MediaInfo/MediaInfo64.dll",
+            "plugins/WDX64/MediaInfo/src/src.rar",
+            "Payload/plugins/WDX64/MediaInfo/mediainfo.wdx",
+            "Payload/plugins/WDX64/MediaInfo/MediaInfo.dll",
+            "Payload/plugins/WDX64/MediaInfo/MediaInfo64.dll",
+            "Payload/plugins/WDX64/MediaInfo/src/src.rar"
+          ],
+          "files": [
+            "files/LICENSE-MediaInfoLib-BSD-2-Clause.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://totalcmd.net/plugring/mediainfo64.html",
+            "version": "26.05",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "5977d55bcc74e2f5f3143410f997d09e054ef9141ad39247bcc4acd3edef1517"
+    },
+    {
+      "id": "total-commander-plugin-office2007",
+      "name": "Total Commander plugin: Office2007",
+      "normalized_name": "total-commander-plugin-office2007",
+      "version": "0.0.6.5",
+      "license_summary": "CPOL-1.02",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "bf0c3c281aa12943d00fb253c3f4e7c39b467d68c0c1075ac1cf6b9da4aa7040",
+      "artifact_path": "plugins/WLX64/Office2007wlx_64/Office2007.wlx",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://totalcmd.net/plugring/office2007wlx.html",
+        "version": "0.0.6.5",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "c669f18dfcefb134f8021f3369845f23981361a3dfd138c7af999640d8ad993d",
+          "display_name": "LICENSE-Office2007wlx-CPOL-1.02.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-office2007-0.0.6.5\\LICENSE-Office2007wlx-CPOL-1.02.txt",
+          "raw_size": 12543
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: Office2007",
+          "version": "0.0.6.5",
+          "license": "CPOL-1.02",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WLX64/Office2007wlx_64/Office2007.wlx",
+            "Payload/plugins/WLX64/Office2007wlx_64/Office2007.wlx"
+          ],
+          "files": [
+            "files/LICENSE-Office2007wlx-CPOL-1.02.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://totalcmd.net/plugring/office2007wlx.html",
+            "version": "0.0.6.5",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "ab173fdac7e5d3ee40d2e7f09b6a9fa8f2453ef7b54f5a9a41e486fa84e08db0"
+    },
+    {
+      "id": "total-commander-plugin-webdav",
+      "name": "Total Commander plugin: WebDAV",
+      "normalized_name": "total-commander-plugin-webdav",
+      "version": "3.2",
+      "license_summary": "MIT and MPL-1.1 parts",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "e56fe3960223a2ef0d7dfd0dcc3c0c32571d606a92650bf93eee08c2dcea56bc",
+      "artifact_path": "plugins/WFX64/WebDAV/davplug.wfx; plugins/WFX64/WebDAV/qrcodelib.dll; plugins/WFX64/WebDAV/qrcodelib64.dll",
+      "obligation_class": "weak_copyleft",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://plugins.ghisler.com/fsplugins/webdav.zip",
+        "version": "3.2",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "30ad49937b0754d61fe060986273b845a663491d947b08eee81f4aed4c562528",
+          "display_name": "NOTICE-Total-Commander-Plugins-Review.md",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-webdav-3.2\\NOTICE-Total-Commander-Plugins-Review.md",
+          "raw_size": 4475
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: WebDAV",
+          "version": "3.2",
+          "license": "MIT and MPL-1.1 parts",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WFX64/WebDAV/davplug.wfx",
+            "plugins/WFX64/WebDAV/qrcodelib.dll",
+            "plugins/WFX64/WebDAV/qrcodelib64.dll",
+            "Payload/plugins/WFX64/WebDAV/davplug.wfx",
+            "Payload/plugins/WFX64/WebDAV/qrcodelib.dll",
+            "Payload/plugins/WFX64/WebDAV/qrcodelib64.dll"
+          ],
+          "files": [
+            "files/NOTICE-Total-Commander-Plugins-Review.md"
+          ],
+          "obligation_class": "weak_copyleft",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://plugins.ghisler.com/fsplugins/webdav.zip",
+            "version": "3.2",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "3284d4e92996daa6ede78fe55322465678d93d6b2ac5fcbcd8a630be670e8496"
+    },
+    {
+      "id": "total-commander-plugin-xpdfsearch",
+      "name": "Total Commander plugin: xPDFSearch",
+      "normalized_name": "total-commander-plugin-xpdfsearch",
+      "version": "1.47.1",
+      "license_summary": "GPL-2.0-or-later",
+      "source_kind": "audion-tc-plugin",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "e52b5783ccdd3aaa8af362b52ddb7cf41d211a3f602184ec2780aa3ee5c2df40",
+      "artifact_path": "plugins/WDX64/xPDFSearch/xPDFSearch.wdx",
+      "obligation_class": "strong_copyleft",
+      "redistributable": true,
+      "source_reference": {
+        "type": "upstream_pin",
+        "url": "https://github.com/tgotic/xPDFSearch",
+        "version": "1.47.1",
+        "sha256": ""
+      },
+      "legal_documents": [
+        {
+          "sha256": "b90ed8150a6d371c84b7dbaa680cd0e9893ef7c2558765e1e00930513efcfe3b",
+          "display_name": "LICENSE-xPDFSearch-GPL-2.0.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-xpdfsearch-1.47.1\\LICENSE-xPDFSearch-GPL-2.0.txt",
+          "raw_size": 18092
+        },
+        {
+          "sha256": "30ad49937b0754d61fe060986273b845a663491d947b08eee81f4aed4c562528",
+          "display_name": "NOTICE-Total-Commander-Plugins-Review.md",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\total-commander-plugin-xpdfsearch-1.47.1\\NOTICE-Total-Commander-Plugins-Review.md",
+          "raw_size": 4475
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Total Commander plugin: xPDFSearch",
+          "version": "1.47.1",
+          "license": "GPL-2.0-or-later",
+          "source": "audion-tc-plugin",
+          "whenPathExists": [
+            "plugins/WDX64/xPDFSearch/xPDFSearch.wdx",
+            "Payload/plugins/WDX64/xPDFSearch/xPDFSearch.wdx"
+          ],
+          "files": [
+            "files/LICENSE-xPDFSearch-GPL-2.0.txt",
+            "files/NOTICE-Total-Commander-Plugins-Review.md"
+          ],
+          "obligation_class": "strong_copyleft",
+          "redistributable": true,
+          "source_archive": {
+            "type": "upstream_pin",
+            "url": "https://github.com/tgotic/xPDFSearch",
+            "version": "1.47.1",
+            "sha256": ""
+          }
+        }
+      },
+      "license_fingerprint": "910523851c08a90443958a803c6f161c46043ae9c0313cb9579f7268bc4d7602"
+    },
+    {
+      "id": "windows-terminal",
+      "name": "Windows Terminal",
+      "normalized_name": "windows-terminal",
+      "version": "bundled",
+      "license_summary": "MIT",
+      "source_kind": "portable-app",
+      "bundled": true,
+      "optional_runtime": false,
+      "provider": "",
+      "artifact_sha256": "cb391e1d8576a0d4ae09a86668cc848ba5210fc02154541ec5ba8bf8907d8967",
+      "artifact_path": "Apps/terminal/.portable; Apps/terminal/CascadiaCode.ttf; Apps/terminal/CascadiaCodeItalic.ttf; Apps/terminal/CascadiaMono.ttf; Apps/terminal/CascadiaMonoItalic.ttf; Apps/terminal/Images/terminal_contrast-black.ico; Apps/terminal/Images/terminal_contrast-white.ico; Apps/terminal/Microsoft.Terminal.Control.dll",
+      "obligation_class": "permissive",
+      "redistributable": true,
+      "source_reference": null,
+      "legal_documents": [
+        {
+          "sha256": "ad0cf28f3381ca9bb0bf101d127402d44c17bfa0991e1a00bff7ae6679e9dada",
+          "display_name": "LICENSE-WindowsTerminal-MIT.txt",
+          "source_path": "S:\\TOOLS\\Audion Build Licenses\\workspace\\runs\\20260824T174724Z_audion-tc_c283f788\\collector_legal_files\\windows-terminal-bundled\\LICENSE-WindowsTerminal-MIT.txt",
+          "raw_size": 1116
+        }
+      ],
+      "metadata": {
+        "manifest": {
+          "name": "Windows Terminal",
+          "version": "bundled",
+          "license": "MIT",
+          "source": "portable-app",
+          "whenPathExists": [
+            "Apps/terminal",
+            "Payload/Apps/terminal"
+          ],
+          "files": [
+            "files/LICENSE-WindowsTerminal-MIT.txt"
+          ],
+          "obligation_class": "permissive",
+          "redistributable": true
+        }
+      },
+      "license_fingerprint": "02ad21c66dfab806b85bc793d157c07b461a75151075f661a2d65d7dc0472c83"
+    },
+    {
+      "id": "notepad-plus-plus",
+      "name": "Notepad++",
+      "normalized_name": "notepad",
+      "version": "v8.9.7",
+      "license_summary": "GPL-3.0-or-later",
+      "source_kind": "runtime-component-record",
+      "bundled": false,
+      "optional_runtime": true,
+      "provider": "Don Ho",
+      "artifact_sha256": "",
+      "artifact_path": "",
+      "obligation_class": "GPL-3.0-or-later",
+      "redistributable": null,
+      "source_reference": {
+        "type": "upstream-runtime-record",
+        "asset_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
+        "release_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/tag/v8.9.7",
+        "asset_sha256": null,
+        "asset_name": "npp.8.9.7.portable.x64.zip"
+      },
+      "legal_documents": [],
+      "metadata": {
+        "record_path": "S:\\Release\\Audion TC Portable\\Audion TC\\license\\runtime_components\\notepad-plus-plus.json",
+        "runtime_record": {
+          "schema": "audion.runtime-component-license-record.v1",
+          "component_id": "notepad-plus-plus",
+          "display_name": "Notepad++",
+          "installed": {
+            "path": "Ware/npp",
+            "version": "8.9.7.0"
+          },
+          "release": {
+            "tag": "v8.9.7",
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/tag/v8.9.7"
+          },
+          "asset": {
+            "name": "npp.8.9.7.portable.x64.zip",
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases"
+          },
+          "provider": {
+            "name": "Don Ho",
+            "repository": "notepad-plus-plus/notepad-plus-plus"
+          },
+          "legal_classification": {
+            "category": "GPL-3.0-or-later",
+            "copyleft": true,
+            "redistributable": true,
+            "exact_license_evidence": "Ware/npp/license.txt",
+            "source_reference": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+            "notes": "Distributed unmodified as the portable x64 build. Source for this exact version is available at the upstream tag above."
+          }
+        }
+      },
+      "license_fingerprint": "38c270bc922378c2bd660f986351ac9e69934991ca427d33f8d2d0adc5f6f821"
+    }
+  ]
+}
