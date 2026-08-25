@@ -8,7 +8,7 @@
 - [Direct download](https://audion.dev/get/tc-portable/2.2.0/Audion_TC_Portable_v2.2.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/tc-portable) — every version and how to install
 
-![The program window](docs/screenshot.png)
+<img src="docs/screenshot.png" alt="The program window" width="560">
 
 `SHA-256: 0a8ab468cf396c55e8628dacf99a9577c1e02072681c8df3b952abce5b0a22f6`
 
