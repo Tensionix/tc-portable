@@ -8,14 +8,14 @@
   <a href="https://github.com/Tensionix/tc-portable/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Tensionix/tc-portable?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600"></a>
 </p>
 
-**Version 2.2.0** · 2026-08-25 · 112.0 MB
+**Version 2.2.1** · 2026-09-01 · 112.2 MB
 
-- [Direct download](https://audion.dev/get/tc-portable/2.2.0/Audion_TC_Portable_v2.2.0_Full.zip) — unmetered, no rate limits
+- [Direct download](https://dl.audion.dev/tc-portable/2.2.1/Audion_TC_Portable_v2.2.1_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/tc-portable) — every version and how to install
 
 <p align="center"><img src="docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: 0a8ab468cf396c55e8628dacf99a9577c1e02072681c8df3b952abce5b0a22f6`
+`SHA-256: e6513e251aa8c80fde5afb0702bc876e8b2726e410bf3f2f78f9cdcfc75c64c3`
 
 ---
 
