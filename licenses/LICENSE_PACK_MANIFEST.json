@@ -1,7 +1,7 @@
 {
   "schema": "audion.build_licenses.pack_manifest.v1",
-  "generated_utc": "2026-09-01T04:39:53Z",
-  "run_id": "20260901T043952Z_audion-tc_f8895c5b",
+  "generated_utc": "2026-09-04T02:34:27Z",
+  "run_id": "20260904T023425Z_audion-tc_ee2f0f3a",
   "project_id": "audion-tc",
   "project_name": "Audion TC",
   "scan_root": "S:\\Release\\Audion TC Portable\\Audion TC",
@@ -9,7 +9,7 @@
   "files": [
     {
       "name": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "8a9fe8aee675ebc85cade2a150565f451a4b9eebfed9bf4b9ba5a84e1f7cf3b2",
+      "sha256": "4df438474ede47a0d38c75ee4efa50fc9207d97190fed8ececd4ee0905e0f993",
       "size": 66980
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "COMPONENTS.json",
-      "sha256": "bfda8977f10ea5511eaf4d301f8e2f27a00eb3c2cd8f775e88b95aaa219910bc",
+      "sha256": "61488c513cb0c16ffe547c128f5a6c5ffb0cb149a5fa0c74a65ebf777924afc4",
       "size": 33344
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "name": "LICENSE_SCAN_REPORT.md",
-      "sha256": "59a3ecf4f80bdeb566df495e118eb0fca1601aaebda050186d3b728b6dc7c95b",
+      "sha256": "725a485a261acd40d3a311a0d882bdb68568d71947cf5392fe59008b3092f320",
       "size": 1555
     }
   ]
